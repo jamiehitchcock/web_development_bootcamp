@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes</title>
+    <style>
+        .container {
+            background-color: greenyellow;
+        }
+
+        .box {
+            background-color: indigo;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            animation-name: amira2;
+            animation-duration: 7s;
+            animation-iteration-count: 5;
+        }
+
+        /* This use for applying animation.1st way is to from and to tag 
+@keyframes amira {
+from{
+ width:100px;
+ background-color: lightgrey;
+}
+to{
+ width:500px;
+ background-color: maroon;
+}
+}
+
+/*By using percentages */
+
+        @keyframes amira2 {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+
+            25% {
+                top: 250px;
+                left: 0px;
+            }
+
+            75% {
+                top: 250px;
+                left: 250px;
+            }
+
+            100% {
+                top: 0px;
+                left: 250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            This is my box
+        </div>
+
+    </div>
+</body>
+
+</html>
