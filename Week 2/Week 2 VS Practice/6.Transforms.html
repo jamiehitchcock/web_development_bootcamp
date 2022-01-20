@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforms</title>
+    <style>
+     
+        .container {
+            background-color:burlywood;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height:80vh;
+
+        }
+
+        #box {
+
+            display: flex;
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            border:2px solid black;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+          transition: all 1s ease-in-out;
+
+        }
+
+        #box:hover {
+            background-color: chartreuse;
+            color: black;
+            transform: scale(2);
+
+            
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div id="box">
+            Sign In
+        </div>
+</body>
+
+</html>
